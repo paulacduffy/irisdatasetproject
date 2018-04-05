@@ -6,3 +6,5 @@ The Iris Flower Dataset was introduced by Ronald Fischer in his 1936 paper *The 
 The sepal is the outer part of the flower that encloses a developing bud (often green in colour) and the petal is the coloured part of the flower. (Reference: https://www.amnh.org/learn/biodiversity_counts/ident_help/Parts_Plants/parts_of_flower.htm)
 
 I figured out today that it is necessary to use libraries to manipulate the data as required. I imported pandas & numpy and used pandas to import the dataset and give titles to the columns.
+
+![Histogram]()

@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 #Import pandas & numpy libraries
 
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
@@ -15,3 +16,6 @@ print (dataset.shape)
 
 print (dataset.groupby('class').size())
 #Number of rows of data for each class
+
+dataset.hist()
+plt.show()

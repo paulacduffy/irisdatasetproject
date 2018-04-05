@@ -7,4 +7,4 @@ The sepal is the outer part of the flower that encloses a developing bud (often 
 
 I figured out today that it is necessary to use libraries to manipulate the data as required. I imported pandas & numpy and used pandas to import the dataset and give titles to the columns.
 
-![Histogram]()
+![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20Histograms.png)

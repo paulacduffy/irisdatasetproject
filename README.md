@@ -10,3 +10,6 @@ I figured out today that it is necessary to use libraries to manipulate the data
 Histogram:
 x axis is interval length, y axis is number of instances for each interval length
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20Histograms.png)
+
+Boxplots for each feature grouped by Class
+![Histogram](

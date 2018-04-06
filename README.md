@@ -12,4 +12,4 @@ x axis is interval length, y axis is number of instances for each interval lengt
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20Histograms.png)
 
 Boxplots for each feature grouped by Class
-![Histogram](
+![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20Boxplot%20grouped%20by%20class.png)

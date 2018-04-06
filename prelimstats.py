@@ -22,9 +22,6 @@ plt.show()
 #Histograms of each column
 #Reference https://medium.com/codebagng/basic-an
 
-dataset.hist(by = "class")
-plt.show()
-#Histograms of each column by Class
-
 dataset.boxplot (by = "class")
 plt.show()
+#Boxplot of each column by Class

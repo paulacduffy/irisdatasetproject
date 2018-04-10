@@ -15,3 +15,6 @@ plt.show()
 dataset.boxplot (by = "class")
 plt.show()
 #Boxplot of each column by Class
+
+plt.hist ('sepal-length')
+plt.show()

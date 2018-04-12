@@ -5,7 +5,15 @@ The Iris Flower Dataset was introduced by Ronald Fischer in his 1936 paper *The 
 (Reference: https://en.wikipedia.org/wiki/Iris_flower_data_set)
 The sepal is the outer part of the flower that encloses a developing bud (often green in colour) and the petal is the coloured part of the flower. (Reference: https://www.amnh.org/learn/biodiversity_counts/ident_help/Parts_Plants/parts_of_flower.htm)
 
-I figured out that it is necessary to use libraries to manipulate the data as required. I imported pandas & numpy and used pandas to import the dataset and give titles to the columns. I imported matplotlib to create some graphs.
+My initial file is called Prelim.py. In this file I used the with statement to read the data, and attempted to do some analysis by column. The script prints the first column only. I couldn't find a way to perform the mathematical functions I wanted to, and after some investigation online I figured out that it is necessary to use libraries to manipulate the data as required. 
+
+In the file Prelimstats.py I used Pandas to import the dataset, and perform some initial investigation. The first piece of script in this file imports the data and gives titles to the columns. 
+The second script uses a simple pandas command to print the mean, standard deviation, minimum value, 25th, 50th & 75th percentiles & maximum values for each column.
+The third script prints the number of rows & columns in the dataset.
+The fourth script prints the number of rows of data for each class.
+All of these scripts use the pandas library.
+
+In the file Plots.py I imported matplotlib to create some graphs.
 
 Histogram:
 x axis is interval length, y axis is number of instances for each interval length

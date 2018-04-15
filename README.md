@@ -27,3 +27,10 @@ x axis is interval length, y axis is number of instances for each interval lengt
 
 Boxplots for each feature grouped by Class
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20Boxplot%20grouped%20by%20class.png)
+From the boxplots we can see the following:
+1. The Iris Virginica has the longest sepal & longest petal 
+2. The Iris Virginica also has the widest petal
+3. The Iris Setosa has the widest sepal
+4. The Iris Versicolor is in the middle in every measurement, i.e. it has neither the longest nor the shortest of any measurement
+5. Petal length is the measurement that varies the most between the three classes
+6. Sepal width is the measurement that varies the least between the three classes

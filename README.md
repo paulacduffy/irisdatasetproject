@@ -34,3 +34,5 @@ From the boxplots we can see the following:
 4. The Iris Versicolor is in the middle in every measurement, i.e. it has neither the longest nor the shortest of any measurement
 5. Petal length is the measurement that varies the most between the three classes
 6. Sepal width is the measurement that varies the least between the three classes
+
+![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Scatterplot%20with%20colours%20Sepal%20width%20vs%20length.png)

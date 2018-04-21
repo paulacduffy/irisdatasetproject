@@ -39,3 +39,6 @@ Scatterplot showing sepal width vs sepal length colour coded by species:
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Scatterplot.png)
 This scatterplot clearly shows that the species Iris Setosa can be distinguished clearly from the other two species by it's sepal width vs length ratio. The other two species cannot be clearly distinguished from each other by this measurement.
+
+Scatterplot showing petal width vs petal length colour coded by species:
+![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Scatterplot%20petal%20iris.png)

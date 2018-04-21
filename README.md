@@ -35,4 +35,7 @@ From the boxplots we can see the following:
 5. Petal length is the measurement that varies the most between the three classes
 6. Sepal width is the measurement that varies the least between the three classes
 
-![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Scatterplot%20with%20colours%20Sepal%20width%20vs%20length.png)
+Scatterplot showing sepal width vs sepal length colour coded by species:
+
+![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Scatterplot.png)
+This scatterplot clearly shows that the species Iris Setosa can be distinguished clearly from the other two species by it's sepal width vs length ratio. The other two species cannot be clearly distinguished from each other by this measurement.

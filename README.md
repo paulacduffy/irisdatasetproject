@@ -24,6 +24,7 @@ All of these scripts use the pandas library.
 In the file [Plots.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/plots.py) I imported matplotlib to create some graphs.
 
 Histogram:
+A histogram shows the number of instances of each interval represented by the height of the bars. 
 x axis is interval length, y axis is number of instances for each interval length
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20Histograms.png)
 

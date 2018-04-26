@@ -21,7 +21,7 @@ The third script prints the number of rows & columns in the dataset.
 The fourth script prints the number of rows of data for each class.
 All of these scripts use the pandas library.
 
-In the file Plots.py I imported matplotlib to create some graphs.
+In the file [Plots.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/plots.py) I imported matplotlib to create some graphs.
 
 Histogram:
 x axis is interval length, y axis is number of instances for each interval length

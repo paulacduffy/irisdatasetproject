@@ -26,6 +26,7 @@ In the file [Plots.py](https://github.com/paulacduffy/irisdatasetproject/blob/ma
 Histogram:
 A histogram shows the number of instances of each interval represented by the height of the bars. 
 x axis is interval length, y axis is number of instances for each interval length. The sepal width histogram most resembles a normal distribution, i.e. points are as likely to occur on one side of the average as the other. The petal width & petal length histograms might suggest that one species can be separated from the other two by these measurements, as there are two distinct peaks in these diagrams.
+
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20Histograms.png)
 
 Boxplots for each feature grouped by Class

@@ -11,7 +11,13 @@ The Iris Flower Dataset was introduced by Ronald Fischer in his 1936 paper *The 
 Fischer developed a model to distinguish the species from each other based on a combination of the four features.
 (Reference: https://en.wikipedia.org/wiki/Iris_flower_data_set)
 The sepal is the outer part of the flower that encloses a developing bud (often green in colour) and the petal is the coloured part of the flower. (Reference: https://www.amnh.org/learn/biodiversity_counts/ident_help/Parts_Plants/parts_of_flower.htm).
-The Iris Dataset is widely used in pattern recognition literature 
+The Iris Dataset is widely used in pattern recognition literature. Classification of the data would involve discovering patterns from examining the petal & sepal size of the flower. There are many examples of analsis of the Iris dataset available online, using various methods:
+http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP386/IntroEDA-Iris.html - uses the R language
+http://msudatascience.com/blog/2016/8/27/quick-analysis-in-r-with-the-iris-dataset - also uses R
+https://www.maplesoft.com/support/help/maple/view.aspx?path=examples/IrisData - uses Maple
+https://www.ibm.com/communities/analytics/watson-analytics-blog/watson-analytics-use-case-the-iris-data-set/ - uses IBM Watson Analytics
+
+
 
 In order to investigate a dataset one needs to establish what purpose the dataset fulfils and determine what specific questions need to be asked of the data. Investigating this particular dataset might involve trying to determine patterns in the data in relation to the three distinct classifications, i.e. does the data clearly show differences between the three classes.  A goal in analying a dataset such as this might be to determine if one could identify which class a flower belongs to given the four measurements. 
 

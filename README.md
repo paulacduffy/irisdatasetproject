@@ -18,13 +18,15 @@ My initial file is [Prelim.py](https://github.com/paulacduffy/irisdatasetproject
 
 In the file [Prelimstats.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/prelimstats.py) I used Pandas to import the dataset, and perform some initial investigation. The first piece of script in this file imports the data and gives titles to the columns. 
 The second script uses a simple pandas command to print the mean, standard deviation, minimum value, 25th, 50th & 75th percentiles & maximum values for each column.
-The mean is another term for the average, i.e. add up each value & divide by the number of values
-Standard Deviation is the amount the values differ from the average, i.e. a low standard deviation indicates that the data points tend to be close to the mean; whereas a high standard deviation indicates that the datapoints are spread out over a wide range of values.
-Minimum value is self-explanatory.
-25th percentile is the value below which 25% of the observations are found
-50th percentile is the value below which 50% of the observations are found; and
-75th percentile is the value below which 75% of the observations are found.
-Maximum value is also self-explanatory.
+
+* Mean is another term for the average, i.e. add up each value & divide by the number of values
+* Standard Deviation is the amount the values differ from the average, i.e. a low standard deviation indicates that the data points tend to be close to the mean; whereas a high standard deviation indicates that the datapoints are spread out over a wide range of values.
+* Minimum value is self-explanatory.
+* 25th percentile is the value below which 25% of the observations are found;
+* 50th percentile is the value below which 50% of the observations are found; and
+* 75th percentile is the value below which 75% of the observations are found.
+* Maximum value is also self-explanatory.
+
 From the data we can see that the petal length measurement has the greatest standard deviation, while the sepal width has the lowest.
 
 The third script prints the number of rows & columns in the dataset.

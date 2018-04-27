@@ -46,6 +46,8 @@ The boxplot is a standardised way of showing the distribution of data based on m
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/box_plot.png)
 
+The boxplots below show each measurement grouped by class: 
+
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20Boxplot%20grouped%20by%20class.png)
 From the boxplots we can see the following:
 1. The Iris Virginica has the longest sepal & longest petal 

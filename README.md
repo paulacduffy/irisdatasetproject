@@ -7,25 +7,29 @@ Sepal Width (cm)
 Petal Length (cm) 
 Petal Width (cm)  
 Class (Iris Setosa, Iris Versicolour and Iris Virginica. 
+Fischer developed a model to distinguish the species from each other based on a combination of the four features.
 (Reference: https://en.wikipedia.org/wiki/Iris_flower_data_set)
 The sepal is the outer part of the flower that encloses a developing bud (often green in colour) and the petal is the coloured part of the flower. (Reference: https://www.amnh.org/learn/biodiversity_counts/ident_help/Parts_Plants/parts_of_flower.htm)
-Investigating the dataset might involve trying to determine patterns in the data in relation to the three distinct classifications, i.e. does the data clearly show differences between the three classes.  A goal in analying a dataset such as this might be to determine if one could identify the class out of the three given the four measurements. 
 
-My initial file is called Prelim.py. In this file I used the with statement to read the data, and attempted to do some analysis by column. The script prints the first column only. I couldn't find a way to perform the mathematical functions I wanted to, and after some investigation online I figured out that it is necessary to use libraries to manipulate the data as required. 
+In order to investigate a dataset one needs to establish what purpose the dataset fulfils and determine what specific questions need to be asked of the data. Investigating this particular dataset might involve trying to determine patterns in the data in relation to the three distinct classifications, i.e. does the data clearly show differences between the three classes.  A goal in analying a dataset such as this might be to determine if one could identify which class a flower belongs to given the four measurements. 
 
-In the file Prelimstats.py I used Pandas to import the dataset, and perform some initial investigation. The first piece of script in this file imports the data and gives titles to the columns. 
+My initial file is [Prelim.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/Prelim.py). In this file I used the with statement to read the data, and attempted to do some analysis by column. The script prints the first column only. I couldn't find a way to perform the mathematical functions I wanted to, and after some investigation online I figured out that it is necessary to use libraries to manipulate the data as required. 
+
+In the file [Prelimstats.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/prelimstats.py) I used Pandas to import the dataset, and perform some initial investigation. The first piece of script in this file imports the data and gives titles to the columns. 
 The second script uses a simple pandas command to print the mean, standard deviation, minimum value, 25th, 50th & 75th percentiles & maximum values for each column.
 The third script prints the number of rows & columns in the dataset.
 The fourth script prints the number of rows of data for each class.
 All of these scripts use the pandas library.
 
-In the file Plots.py I imported matplotlib to create some graphs.
+In the file [Plots.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/plots.py) I imported matplotlib to create some graphs as follows:
 
 Histogram:
-x axis is interval length, y axis is number of instances for each interval length
+A histogram shows the number of instances of each interval represented by the height of the bars. 
+x axis is interval length, y axis is number of instances for each interval length. The sepal width histogram most resembles a normal distribution, i.e. points are as likely to occur on one side of the average as the other. The petal width & petal length histograms might suggest that one species can be separated from the other two by these measurements, as there are two distinct peaks in these diagrams.
+
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20Histograms.png)
 
-Boxplots for each feature grouped by Class
+Boxplots for each feature grouped by Class: 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20Boxplot%20grouped%20by%20class.png)
 From the boxplots we can see the following:
 1. The Iris Virginica has the longest sepal & longest petal 
@@ -35,7 +39,15 @@ From the boxplots we can see the following:
 5. Petal length is the measurement that varies the most between the three classes
 6. Sepal width is the measurement that varies the least between the three classes
 
+In the file [scatterploy.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/scatterplot.py) I used the seaborn library to create scatterplots distinguishing the three species by colour as follows:
+
 Scatterplot showing sepal width vs sepal length colour coded by species:
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Scatterplot.png)
-This scatterplot clearly shows that the species Iris Setosa can be distinguished clearly from the other two species by it's sepal width vs length ratio. The other two species cannot be clearly distinguished from each other by this measurement.
+
+This scatterplot shows that the species Iris Setosa can be distinguished clearly from the other two species by it's sepal width vs length ratio. The other two species cannot be clearly distinguished from each other by these measurements.
+
+Scatterplot showing petal width vs petal length colour coded by species:
+![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Scatterplot%20petal%20iris.png)
+
+Similary, this scatterplot shows that the Iris Setosa can also be distinguished clearly from the other two species by it's petal width vs length ratio. The other two species can't be distinuished clearly from each other by this ratio.

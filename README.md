@@ -51,3 +51,5 @@ Scatterplot showing petal width vs petal length colour coded by species:
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Scatterplot%20petal%20iris.png)
 
 Similary, this scatterplot shows that the Iris Setosa can also be distinguished clearly from the other two species by it's petal width vs length ratio. The other two species can't be distinuished clearly from each other by this ratio.
+When I started to compare petal width and sepal width, and petal length and sepal length I started to see some distinction between all three species:
+

@@ -1,4 +1,4 @@
-#Paula Duffy
+#Paula Duffy Programming & Scripting Project
 #Iris Dataset Preliminary Work
 
 with open ("data/iris.csv") as f:

@@ -1,5 +1,4 @@
-#Paula Duffy
-#Iris Dataset
+#Paula Duffy Programming & Scripting Project
 #Histogram & Boxplot
 
 import pandas as pd

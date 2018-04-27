@@ -1,4 +1,4 @@
-#Paula Duffy
+#Paula Duffy Programming & Scripting Project
 #Iris Dataset Preliminary Statistics
 
 import pandas as pd

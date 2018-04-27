@@ -21,7 +21,7 @@ The third script prints the number of rows & columns in the dataset.
 The fourth script prints the number of rows of data for each class.
 All of these scripts use the pandas library.
 
-In the file [Plots.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/plots.py) I imported matplotlib to create some graphs.
+In the file [Plots.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/plots.py) I imported matplotlib to create some graphs as follows:
 
 Histogram:
 A histogram shows the number of instances of each interval represented by the height of the bars. 
@@ -29,7 +29,7 @@ x axis is interval length, y axis is number of instances for each interval lengt
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20Histograms.png)
 
-Boxplots for each feature grouped by Class
+Boxplots for each feature grouped by Class: 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20Boxplot%20grouped%20by%20class.png)
 From the boxplots we can see the following:
 1. The Iris Virginica has the longest sepal & longest petal 
@@ -42,7 +42,7 @@ From the boxplots we can see the following:
 Scatterplot showing sepal width vs sepal length colour coded by species:
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Scatterplot.png)
-This scatterplot clearly shows that the species Iris Setosa can be distinguished clearly from the other two species by it's sepal width vs length ratio. The other two species cannot be clearly distinguished from each other by this measurement.
+This scatterplot shows that the species Iris Setosa can be distinguished clearly from the other two species by it's sepal width vs length ratio. The other two species cannot be clearly distinguished from each other by this measurement.
 
 Scatterplot showing petal width vs petal length colour coded by species:
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Scatterplot%20petal%20iris.png)

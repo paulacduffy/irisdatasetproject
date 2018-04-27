@@ -12,10 +12,14 @@ Fischer developed a model to distinguish the species from each other based on a 
 (Reference: https://en.wikipedia.org/wiki/Iris_flower_data_set)
 The sepal is the outer part of the flower that encloses a developing bud (often green in colour) and the petal is the coloured part of the flower. (Reference: https://www.amnh.org/learn/biodiversity_counts/ident_help/Parts_Plants/parts_of_flower.htm).
 The Iris Dataset is widely used in pattern recognition literature. Classification of the data would involve discovering patterns from examining the petal & sepal size of the flower. There are many examples of analsis of the Iris dataset available online, using various methods:
-http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP386/IntroEDA-Iris.html - uses the R language
-http://msudatascience.com/blog/2016/8/27/quick-analysis-in-r-with-the-iris-dataset - also uses R
-https://www.maplesoft.com/support/help/maple/view.aspx?path=examples/IrisData - uses Maple
-https://www.ibm.com/communities/analytics/watson-analytics-blog/watson-analytics-use-case-the-iris-data-set/ - uses IBM Watson Analytics
+http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP386/IntroEDA-Iris.html - uses the R language;
+http://msudatascience.com/blog/2016/8/27/quick-analysis-in-r-with-the-iris-dataset - also uses R;
+https://www.maplesoft.com/support/help/maple/view.aspx?path=examples/IrisData - uses Maple;
+https://www.ibm.com/communities/analytics/watson-analytics-blog/watson-analytics-use-case-the-iris-data-set/ - uses IBM Watson Analytics; and there are many examples of analysis using Python:
+http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
+https://www.kaggle.com/adityabhat24/iris-data-analysis-and-machine-learning-python
+https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+All of these examples have a lot in common. They begin with a simple investigation of the data to identify some statistics e.g. mean, maximum values etc. They then go on to visualise the data using various methods. Finally some of the analyses available go into classifying data into the various species depending on measurements. 
 
 
 

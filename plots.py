@@ -19,3 +19,8 @@ plt.show()
 #Boxplot of each column by Class
 dataset.boxplot (by = "class")
 plt.show()
+
+#Scatterplot of ratio of sepal length to sepal width
+dataset.plot(kind="scatter", x="sepal-length", y="sepal-width")
+plt.show()
+#reference: http://www.learn4master.com/machine-learning/visualize-iris-dataset-using-python

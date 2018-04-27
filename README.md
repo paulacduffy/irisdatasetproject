@@ -43,6 +43,7 @@ x axis is interval length, y axis is number of instances for each interval lengt
 
 Boxplots:
 The boxplot is a standardised way of showing the distribution of data based on maximum value, minimum value, first quartile, median, third quartile & outliers as shown below:
+
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Boxplot.gif)
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20Boxplot%20grouped%20by%20class.png)

@@ -6,7 +6,7 @@ The Iris Flower Dataset was introduced by Ronald Fischer in his 1936 paper *The 
 * Sepal Width (cm); 
 * Petal Length (cm); 
 * Petal Width (cm); and  
-* Class (Iris Setosa, Iris Versicolour and Iris Virginica). 
+* Class (*Iris setosa*, *Iris versicolour* and *Iris virginica*). 
 
 Fischer developed a model to distinguish the species from each other based on a combination of the four features.
 (Reference: https://en.wikipedia.org/wiki/Iris_flower_data_set)
@@ -50,10 +50,10 @@ The boxplots below show each measurement grouped by class:
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20Boxplot%20grouped%20by%20class.png)
 From the boxplots we can see the following:
-1. The Iris Virginica has the longest sepal & longest petal 
-2. The Iris Virginica also has the widest petal
-3. The Iris Setosa has the widest sepal
-4. The Iris Versicolor is in the middle in every measurement, i.e. it has neither the longest nor the shortest of any measurement
+1. The *Iris virginica* has the longest sepal & longest petal 
+2. The *Iris virginica* also has the widest petal
+3. The *Iris setosa* has the widest sepal
+4. The *Iris versicolor* is in the middle in every measurement, i.e. it has neither the longest nor the shortest of any measurement
 5. Petal length is the measurement that varies the most between the three classes
 6. Sepal width is the measurement that varies the least between the three classes
 
@@ -63,18 +63,18 @@ Scatterplot showing sepal width vs sepal length colour coded by species:
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Scatterplot.png)
 
-This scatterplot shows that the species Iris Setosa can be distinguished clearly from the other two species by it's sepal width vs length ratio. The other two species cannot be clearly distinguished from each other by these measurements.
+This scatterplot shows that the species *Iris setosa* can be distinguished clearly from the other two species by it's sepal width vs length ratio. The other two species cannot be clearly distinguished from each other by these measurements.
 
 Scatterplot showing petal width vs petal length colour coded by species:
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Scatterplot%20petal%20iris.png)
 
-Similary, this scatterplot shows that the Iris Setosa can also be distinguished clearly from the other two species by it's petal width vs length ratio. The other two species can't be distinuished clearly from each other by this ratio.
+Similary, this scatterplot shows that the *Iris setosa* can also be distinguished clearly from the other two species by it's petal width vs length ratio. The other two species can't be distinuished clearly from each other by this ratio.
 When I started to compare petal width and sepal width, and petal length and sepal length I started to see some distinction between all three species:
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Scatterplot%20petal%20length%20sepal%20length%20iris.png)
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Scatterplot%20petal%20width%20sepal%20width%20iris.png)
 
-As we can see from these scatterplots the Iris Setosa is still the most clearly distinguishable from the other two species, but the Iris Virginica & Versicolor can be distinguished from each other using these ratios.
+As we can see from these scatterplots the *Iris setosa* is still the most clearly distinguishable from the other two species, but the *Iris virginica* & *Iris versicolor* can be distinguished from each other using these ratios.
 
 

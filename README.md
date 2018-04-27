@@ -39,6 +39,8 @@ From the boxplots we can see the following:
 5. Petal length is the measurement that varies the most between the three classes
 6. Sepal width is the measurement that varies the least between the three classes
 
+In the file [scatterploy.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/scatterplot.py) I used the seaborn library to create scatterplots distinguishing the three species by colour as follows:
+
 Scatterplot showing sepal width vs sepal length colour coded by species:
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Scatterplot.png)

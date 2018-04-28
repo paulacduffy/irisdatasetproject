@@ -14,16 +14,21 @@ names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = pd.read_csv(url, names=names)
 
 
-#Scatterplot using Seaborn
+#Scatterplots using Seaborn
+
+#compare sepal width & sepal length
 sns.lmplot(x="sepal-width", y="sepal-length", hue="class", data=dataset, legend_out = False)
 plt.legend(loc = 'lower right')
 
+#compare petal width & petal length
 sns.lmplot(x="petal-width", y="petal-length", hue="class", data=dataset, legend_out = False)
 plt.legend(loc = 'lower right')
 
+#compare sepal length & petal length
 sns.lmplot(x="sepal-length", y="petal-length", hue="class", data=dataset, legend_out = False)
 plt.legend(loc = 'upper left')
 
+#compare sepal width & petal width
 sns.lmplot(x="sepal-width", y="petal-width", hue="class", data=dataset, legend_out = False)
 plt.legend(loc = 'upper left')
 

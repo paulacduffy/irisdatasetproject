@@ -28,7 +28,11 @@ All of these examples have a lot in common. They begin with a simple investigati
 My initial file is [Prelim.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/Prelim.py). In this file I used the with statement to read the data, and attempted to do some analysis by column. The script prints the first column only. I couldn't find a way to perform the mathematical functions I wanted to, and after some investigation online I figured out that it is necessary to use libraries to manipulate the data as required. 
 
 In the file [Prelimstats.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/prelimstats.py) I used Pandas to import the dataset, and perform some initial investigation. The first piece of script in this file imports the data and gives titles to the columns. 
-The second script uses a simple pandas command to print the mean, standard deviation, minimum value, 25th, 50th & 75th percentiles & maximum values for each column.
+The second script prints the top 20 rows of data:
+
+
+
+uses a simple pandas command to print the mean, standard deviation, minimum value, 25th, 50th & 75th percentiles & maximum values for each column.
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Dataset%20description.PNG)
 
 * Mean is another term for the average, i.e. add up each value & divide by the number of values

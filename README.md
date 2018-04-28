@@ -52,15 +52,17 @@ The fourth command prints the number of rows & columns in the dataset (150 rows 
 The fifth command prints the number of rows of data for each class (50).
 This file uses the pandas library.
 
+### Visualisation of the data
+
 In the file [Plots.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/plots.py) I imported matplotlib to create some graphs as follows:
 
-Histogram:
+**Histogram:**
 A histogram shows the number of instances of each interval represented by the height of the bars. 
 x axis is interval length, y axis is number of instances for each interval length. The sepal width histogram most resembles a normal distribution, i.e. points are as likely to occur on one side of the average as the other. The petal width & petal length histograms might suggest that one species can be separated from the other two by these measurements, as there are two distinct peaks in these diagrams.
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20Histograms.png)
 
-Boxplots:
+**Boxplot:**
 The boxplot is a standardised way of showing the distribution of data based on maximum value, minimum value, first quartile, median, third quartile & outliers as shown below (Reference: https://datavizcatalogue.com/methods/box_plot.html):
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/box_plot.png)
@@ -76,7 +78,7 @@ From the boxplots we can see the following:
 5. Petal length is the measurement that varies the most between the three classes
 6. Sepal width is the measurement that varies the least between the three classes
 
-In the file [scatterplot.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/scatterplot.py) I used the seaborn library to create scatterplots distinguishing the three species by colour as follows:
+**Scatterplot:** In the file [scatterplot.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/scatterplot.py) I used the seaborn library to create scatterplots distinguishing the three species by colour as follows:
 
 Scatterplot showing sepal width vs sepal length colour coded by species:
 
@@ -96,6 +98,7 @@ When we compare petal width and sepal width, and petal length and sepal length w
 
 As we can see from these scatterplots the *Iris setosa* is still the most clearly distinguishable from the other two species, but the *Iris virginica* & *Iris versicolor* can be distinguished a lot more from each other using these ratios with just a small number of overlaps.
 
+### Conclusion
 In conclusion, the species *Iris setosa* is the most clearly distinguishable from the other two species by either it's sepal length vs width ratio or petal length vs width ratio. The other two species cannot be distinguished from each other using these ratios but using the ratios sepal width vs petal width and sepal length vs petal length can distinguish between the other two species.
 
 

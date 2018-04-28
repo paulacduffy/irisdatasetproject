@@ -25,7 +25,7 @@ https://www.kaggle.com/adityabhat24/iris-data-analysis-and-machine-learning-pyth
 https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
 All of these examples have a lot in common. They begin with a simple investigation of the data to identify some statistics e.g. mean, maximum values etc. They then go on to visualise the data using various methods. Finally some of the analyses available go into predicting species depending on measurements. This [analysis](http://www.statlab.uni-heidelberg.de/data/iris/) separates the species based on petal & sepal areas, with only three misclassifications. In this project I will not be looking at predicting species type based on measurements, but will look at the other two areas mentioned: statistics for the dataset & visualisations of the data.
 
-###Preliminary Analysis
+### Preliminary Analysis
 
 My initial file is [Prelim.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/Prelim.py). In this file I used the with statement to read the data, and attempted to do some analysis by column. The script prints the first column only. I couldn't find a way to perform the mathematical functions I wanted to, and after some investigation online I figured out that it is necessary to use libraries to manipulate the data as required. 
 

@@ -29,9 +29,11 @@ My initial file is [Prelim.py](https://github.com/paulacduffy/irisdatasetproject
 
 In the file [Prelimstats.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/prelimstats.py) I used Pandas to import the dataset, and perform some initial investigation. The first piece of script in this file imports the data and gives titles to the columns. 
 The second command prints the top 20 rows of data:
+
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20top%2020%20rows.PNG)
 
 The third command prints the mean, standard deviation, minimum value, 25th, 50th & 75th percentiles & maximum values for each column.
+
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Dataset%20description.PNG)
 
 * Mean is another term for the average, i.e. add up each value & divide by the number of values

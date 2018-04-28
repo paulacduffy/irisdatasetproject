@@ -19,8 +19,7 @@ https://www.ibm.com/communities/analytics/watson-analytics-blog/watson-analytics
 http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
 https://www.kaggle.com/adityabhat24/iris-data-analysis-and-machine-learning-python
 https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
-All of these examples have a lot in common. They begin with a simple investigation of the data to identify some statistics e.g. mean, maximum values etc. They then go on to visualise the data using various methods. Finally some of the analyses available go into classifying data into the various species depending on measurements. 
-
+All of these examples have a lot in common. They begin with a simple investigation of the data to identify some statistics e.g. mean, maximum values etc. They then go on to visualise the data using various methods. Finally some of the analyses available go into predicting species depending on measurements. This [analysis](http://www.statlab.uni-heidelberg.de/data/iris/) separates the species based on petal & sepal areas, with only three misclassifications. In this project I will not be looking at predicting species type based on measurements, but will look at the other two areas mentioned: statistics for the dataset & visualisations of the data.
 
 
 In order to investigate a dataset one needs to establish what purpose the dataset fulfils and determine what specific questions need to be asked of the data. Investigating this particular dataset might involve trying to determine patterns in the data in relation to the three distinct classifications, i.e. does the data clearly show differences between the three classes.  A goal in analying a dataset such as this might be to determine if one could identify which class a flower belongs to given the four measurements. 

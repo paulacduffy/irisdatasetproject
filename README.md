@@ -41,8 +41,8 @@ The second script uses a simple pandas command to print the mean, standard devia
 
 From the data we can see that the petal length measurement has the greatest standard deviation, while the sepal width has the lowest.
 
-The third script prints the number of rows & columns in the dataset.
-The fourth script prints the number of rows of data for each class.
+The third script prints the number of rows & columns in the dataset (150 rows and 5 columns).
+The fourth script prints the number of rows of data for each class (50).
 All of these scripts use the pandas library.
 
 In the file [Plots.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/plots.py) I imported matplotlib to create some graphs as follows:

@@ -85,6 +85,6 @@ When I started to compare petal width and sepal width, and petal length and sepa
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Scatterplot%20petal%20width%20sepal%20width%20iris.png)
 
-As we can see from these scatterplots the *Iris setosa* is still the most clearly distinguishable from the other two species, but the *Iris virginica* & *Iris versicolor* can be distinguished from each other using these ratios.
+As we can see from these scatterplots the *Iris setosa* is still the most clearly distinguishable from the other two species, but the *Iris virginica* & *Iris versicolor* can be distinguished a lot more from each other using these ratios with just a small number of overlaps.
 
 

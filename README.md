@@ -11,7 +11,11 @@ The Iris Flower Dataset was introduced by Ronald Fischer in his 1936 paper *The 
 Fischer developed a model to distinguish the species from each other based on a combination of the four features.
 (Reference: https://en.wikipedia.org/wiki/Iris_flower_data_set)
 The sepal is the outer part of the flower that encloses a developing bud (often green in colour) and the petal is the coloured part of the flower. (Reference: https://www.amnh.org/learn/biodiversity_counts/ident_help/Parts_Plants/parts_of_flower.htm).
-The Iris Dataset is widely used in pattern recognition literature. Classification of the data would involve discovering patterns from examining the petal & sepal size of the flower. There are many examples of analsis of the Iris dataset available online, using various methods:
+The Iris Dataset is widely used in pattern recognition literature. Classification of the data would involve discovering patterns from examining the petal & sepal size of the flower. 
+
+In order to investigate a dataset one needs to establish what purpose the dataset fulfils and determine what specific questions need to be asked of the data. Investigating this particular dataset might involve trying to determine patterns in the data in relation to the three distinct classifications, i.e. does the data clearly show differences between the three classes.  A goal in analying a dataset such as this might be to determine if one could identify which class a flower belongs to given the four measurements.
+
+There are many examples of analsis of the Iris dataset available online, using various methods:
 http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP386/IntroEDA-Iris.html - uses the R language;
 http://msudatascience.com/blog/2016/8/27/quick-analysis-in-r-with-the-iris-dataset - also uses R;
 https://www.maplesoft.com/support/help/maple/view.aspx?path=examples/IrisData - uses Maple;
@@ -21,13 +25,11 @@ https://www.kaggle.com/adityabhat24/iris-data-analysis-and-machine-learning-pyth
 https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
 All of these examples have a lot in common. They begin with a simple investigation of the data to identify some statistics e.g. mean, maximum values etc. They then go on to visualise the data using various methods. Finally some of the analyses available go into predicting species depending on measurements. This [analysis](http://www.statlab.uni-heidelberg.de/data/iris/) separates the species based on petal & sepal areas, with only three misclassifications. In this project I will not be looking at predicting species type based on measurements, but will look at the other two areas mentioned: statistics for the dataset & visualisations of the data.
 
-
-In order to investigate a dataset one needs to establish what purpose the dataset fulfils and determine what specific questions need to be asked of the data. Investigating this particular dataset might involve trying to determine patterns in the data in relation to the three distinct classifications, i.e. does the data clearly show differences between the three classes.  A goal in analying a dataset such as this might be to determine if one could identify which class a flower belongs to given the four measurements. 
-
 My initial file is [Prelim.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/Prelim.py). In this file I used the with statement to read the data, and attempted to do some analysis by column. The script prints the first column only. I couldn't find a way to perform the mathematical functions I wanted to, and after some investigation online I figured out that it is necessary to use libraries to manipulate the data as required. 
 
 In the file [Prelimstats.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/prelimstats.py) I used Pandas to import the dataset, and perform some initial investigation. The first piece of script in this file imports the data and gives titles to the columns. 
 The second script uses a simple pandas command to print the mean, standard deviation, minimum value, 25th, 50th & 75th percentiles & maximum values for each column.
+![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Dataset%20description.PNG)
 
 * Mean is another term for the average, i.e. add up each value & divide by the number of values
 * Standard Deviation is the amount the values differ from the average, i.e. a low standard deviation indicates that the data points tend to be close to the mean; whereas a high standard deviation indicates that the datapoints are spread out over a wide range of values.
@@ -39,8 +41,8 @@ The second script uses a simple pandas command to print the mean, standard devia
 
 From the data we can see that the petal length measurement has the greatest standard deviation, while the sepal width has the lowest.
 
-The third script prints the number of rows & columns in the dataset.
-The fourth script prints the number of rows of data for each class.
+The third script prints the number of rows & columns in the dataset (150 rows and 5 columns).
+The fourth script prints the number of rows of data for each class (50).
 All of these scripts use the pandas library.
 
 In the file [Plots.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/plots.py) I imported matplotlib to create some graphs as follows:
@@ -79,12 +81,14 @@ Scatterplot showing petal width vs petal length colour coded by species:
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Scatterplot%20petal%20iris.png)
 
 Similary, this scatterplot shows that the *Iris setosa* can also be distinguished clearly from the other two species by it's petal width vs length ratio. The other two species can't be distinuished clearly from each other by this ratio.
-When I started to compare petal width and sepal width, and petal length and sepal length I started to see some distinction between all three species:
+When we compare petal width and sepal width, and petal length and sepal length we see some distinction between all three species:
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Scatterplot%20petal%20length%20sepal%20length%20iris.png)
 
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Scatterplot%20petal%20width%20sepal%20width%20iris.png)
 
-As we can see from these scatterplots the *Iris setosa* is still the most clearly distinguishable from the other two species, but the *Iris virginica* & *Iris versicolor* can be distinguished from each other using these ratios.
+As we can see from these scatterplots the *Iris setosa* is still the most clearly distinguishable from the other two species, but the *Iris virginica* & *Iris versicolor* can be distinguished a lot more from each other using these ratios with just a small number of overlaps.
+
+In conclusion, the species *Iris setosa* is the most clearly distinguishable from the other two species by either it's sepal length vs width ratio or petal length vs width ratio. The other two species cannot be distinguished from each other using these ratios but using the ratios sepal width vs petal width and sepal length vs petal length can distinguish between the other two species.
 
 

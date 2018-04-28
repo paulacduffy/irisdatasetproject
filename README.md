@@ -28,11 +28,10 @@ All of these examples have a lot in common. They begin with a simple investigati
 My initial file is [Prelim.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/Prelim.py). In this file I used the with statement to read the data, and attempted to do some analysis by column. The script prints the first column only. I couldn't find a way to perform the mathematical functions I wanted to, and after some investigation online I figured out that it is necessary to use libraries to manipulate the data as required. 
 
 In the file [Prelimstats.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/prelimstats.py) I used Pandas to import the dataset, and perform some initial investigation. The first piece of script in this file imports the data and gives titles to the columns. 
-The second script prints the top 20 rows of data:
+The second command prints the top 20 rows of data:
+![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Iris%20Dataset%20top%2020%20rows.PNG)
 
-
-
-uses a simple pandas command to print the mean, standard deviation, minimum value, 25th, 50th & 75th percentiles & maximum values for each column.
+The third command prints the mean, standard deviation, minimum value, 25th, 50th & 75th percentiles & maximum values for each column.
 ![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Dataset%20description.PNG)
 
 * Mean is another term for the average, i.e. add up each value & divide by the number of values
@@ -45,9 +44,9 @@ uses a simple pandas command to print the mean, standard deviation, minimum valu
 
 From the data we can see that the petal length measurement has the greatest standard deviation, while the sepal width has the lowest.
 
-The third script prints the number of rows & columns in the dataset (150 rows and 5 columns).
-The fourth script prints the number of rows of data for each class (50).
-All of these scripts use the pandas library.
+The fourth command prints the number of rows & columns in the dataset (150 rows and 5 columns).
+The fifth command prints the number of rows of data for each class (50).
+This file uses the pandas library.
 
 In the file [Plots.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/plots.py) I imported matplotlib to create some graphs as follows:
 

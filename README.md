@@ -29,6 +29,7 @@ My initial file is [Prelim.py](https://github.com/paulacduffy/irisdatasetproject
 
 In the file [Prelimstats.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/prelimstats.py) I used Pandas to import the dataset, and perform some initial investigation. The first piece of script in this file imports the data and gives titles to the columns. 
 The second script uses a simple pandas command to print the mean, standard deviation, minimum value, 25th, 50th & 75th percentiles & maximum values for each column.
+![Histogram](https://github.com/paulacduffy/irisdatasetproject/blob/master/Dataset%20description.PNG)
 
 * Mean is another term for the average, i.e. add up each value & divide by the number of values
 * Standard Deviation is the amount the values differ from the average, i.e. a low standard deviation indicates that the data points tend to be close to the mean; whereas a high standard deviation indicates that the datapoints are spread out over a wide range of values.

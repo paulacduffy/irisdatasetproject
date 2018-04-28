@@ -10,6 +10,9 @@ dataset = pd.read_csv(url, names=names)
 #Import Dataset
 #Reference https://stackoverflow.com/questions/44594249/cannot-import-data-in-python-using-pandas for help loading dataset using pandas
 
+print (dataset.head (20))
+#Prints the top 20 rows of the dataset
+
 print (dataset.describe())
 #Prints mean, standard deviation, minimum value, 25th percentile, 50th percentile, 75th percentile & maximum values for each column
 

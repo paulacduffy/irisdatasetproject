@@ -10,7 +10,17 @@ The Iris Flower Dataset was introduced by Ronald Fischer in his 1936 paper *The 
 
 Fischer developed a model to distinguish the species from each other based on a combination of the four features.
 (Reference: https://en.wikipedia.org/wiki/Iris_flower_data_set)
-The sepal is the outer part of the flower that encloses a developing bud (often green in colour) and the petal is the coloured part of the flower. (Reference: https://www.amnh.org/learn/biodiversity_counts/ident_help/Parts_Plants/parts_of_flower.htm)
+The sepal is the outer part of the flower that encloses a developing bud (often green in colour) and the petal is the coloured part of the flower. (Reference: https://www.amnh.org/learn/biodiversity_counts/ident_help/Parts_Plants/parts_of_flower.htm).
+The Iris Dataset is widely used in pattern recognition literature. Classification of the data would involve discovering patterns from examining the petal & sepal size of the flower. There are many examples of analsis of the Iris dataset available online, using various methods:
+http://www.lac.inpe.br/~rafael.santos/Docs/R/CAP386/IntroEDA-Iris.html - uses the R language;
+http://msudatascience.com/blog/2016/8/27/quick-analysis-in-r-with-the-iris-dataset - also uses R;
+https://www.maplesoft.com/support/help/maple/view.aspx?path=examples/IrisData - uses Maple;
+https://www.ibm.com/communities/analytics/watson-analytics-blog/watson-analytics-use-case-the-iris-data-set/ - uses IBM Watson Analytics; and there are many examples of analysis using Python:
+http://patrickhoey.com/downloads/Computer_Science/03_Patrick_Hoey_Data_Visualization_Dataset_paper.pdf
+https://www.kaggle.com/adityabhat24/iris-data-analysis-and-machine-learning-python
+https://medium.com/codebagng/basic-analysis-of-the-iris-data-set-using-python-2995618a6342
+All of these examples have a lot in common. They begin with a simple investigation of the data to identify some statistics e.g. mean, maximum values etc. They then go on to visualise the data using various methods. Finally some of the analyses available go into predicting species depending on measurements. This [analysis](http://www.statlab.uni-heidelberg.de/data/iris/) separates the species based on petal & sepal areas, with only three misclassifications. In this project I will not be looking at predicting species type based on measurements, but will look at the other two areas mentioned: statistics for the dataset & visualisations of the data.
+
 
 In order to investigate a dataset one needs to establish what purpose the dataset fulfils and determine what specific questions need to be asked of the data. Investigating this particular dataset might involve trying to determine patterns in the data in relation to the three distinct classifications, i.e. does the data clearly show differences between the three classes.  A goal in analying a dataset such as this might be to determine if one could identify which class a flower belongs to given the four measurements. 
 
@@ -57,7 +67,7 @@ From the boxplots we can see the following:
 5. Petal length is the measurement that varies the most between the three classes
 6. Sepal width is the measurement that varies the least between the three classes
 
-In the file [scatterploy.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/scatterplot.py) I used the seaborn library to create scatterplots distinguishing the three species by colour as follows:
+In the file [scatterplot.py](https://github.com/paulacduffy/irisdatasetproject/blob/master/scatterplot.py) I used the seaborn library to create scatterplots distinguishing the three species by colour as follows:
 
 Scatterplot showing sepal width vs sepal length colour coded by species:
 

@@ -46,7 +46,11 @@ The third command prints the mean, standard deviation, minimum value, 25th, 50th
 * 75th percentile is the value below which 75% of the observations are found.
 * Maximum value is also self-explanatory.
 
-From the data we can see that the petal length measurement has the greatest standard deviation, while the sepal width has the lowest.
+From the data we can see that:
+* Sepals are on average longer & wider than petals
+* Petal width has the smallest minimum and maximum value
+* Sepal length has the largest minimum and maximum value
+* Petal length has the greatest standard deviation, i.e. has a large distribution from the mean; while the sepal width has the lowest standard deviation, i.e. a small distribution from the mean.
 
 The fourth command prints the number of rows & columns in the dataset (150 rows and 5 columns).
 The fifth command prints the number of rows of data for each class (50).

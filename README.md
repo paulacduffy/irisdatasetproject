@@ -103,7 +103,7 @@ When we compare petal width and sepal width, and petal length and sepal length w
 As we can see from these scatterplots the *Iris setosa* is still the most clearly distinguishable from the other two species, but the *Iris virginica* & *Iris versicolor* can be distinguished a lot more from each other using these ratios with just a small number of overlaps.
 
 ### Conclusion
-In conclusion, the species *Iris setosa* is the most clearly distinguishable from the other two species by either it's sepal length vs width ratio or petal length vs width ratio. The other two species cannot be distinguished from each other using these ratios but using the ratios sepal width vs petal width and sepal length vs petal length can distinguish between the other two species.
+In conclusion, the species *Iris setosa* is the most clearly distinguishable from the other two species by either it's sepal length vs width ratio or petal length vs width ratio. The other two species cannot be distinguished from each other using these ratios, but using the ratios sepal width vs petal width and sepal length vs petal length can distinguish between the other two species.
 I would like to do some further research to find out how to build a prediction model to identify species given measurements, but this is beyond my abilities at this stage!
 
 
